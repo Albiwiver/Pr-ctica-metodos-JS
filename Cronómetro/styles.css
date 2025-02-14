@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(assets/background.jpg) no-repeat center center/cover;
+  text-align: center;
+}
+
+.contenedor {
+  background-color: rgb(49, 13, 83);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80vh;
+  max-width: 450px;
+  min-height: 450px;
+  flex-wrap: wrap;
+  border-radius: 100%;
+  border: 5px solid rgb(18, 52, 247);
+  opacity: 0.9;
+}
+
+.contenedor-botones {
+  padding: 24px;
+}
+
+#cronometro {
+  width: 100%;
+  font-size: 80px;
+  font-weight: bold;
+  user-select: none;
+  color: white;
+  font-family: 'Noto Sans Thai', sans-serif;
+}
+
+.boton {
+  width: 80px;
+  height: 80px;
+  font-size: 50px;
+  margin: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#boton-inicio-pausa.iniciar,
+#boton-inicio-pausa.iniciar i {
+  background-color: #08E008;
+}
+
+#boton-inicio-pausa.pausar,
+#boton-inicio-pausa.pausar i {
+  background-color: #FFDC00;
+}
+
+#boton-reiniciar {
+  background-color: red;
+}
