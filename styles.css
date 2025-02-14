@@ -1,0 +1,15 @@
+.main {
+    justify-content: center;
+    align-items: center;
+    padding: 48px ;
+    background-color: burlywood;
+    border-radius: 16px;
+    border: solid 2px;
+    border-color: black;
+    text-align: center;
+}
+
+body{
+    background-color: bisque;
+    align-items: center;
+}
